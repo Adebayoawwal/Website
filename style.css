@@ -1,17 +1,21 @@
 body{
-    background-color: #456464;
+    background: url(image/layered-peaks-haikei\ \(1\).png);
     color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo{
     display: flex;
     background-color: #f1ad0e;
+    background-position: center;
     position: relative;
     bottom: 15px;
+    height: 30px;
 }
  li{
     display: inline-block;
     list-style: none;
-    margin: 10px 100px;
+    margin: 10px 150px;
 }
 li a{
     text-decoration: none;
@@ -26,7 +30,8 @@ button{
 }
  a{
     text-decoration: none;
-    color: #fe0909;
+    color: #456464;
+    font-size: 20px;
     font-weight: bold;
 } 
 li a:hover{
@@ -38,4 +43,15 @@ span{
 .head{
     position: relative;
     top: 60px;
+}
+.word{
+    font-size: 26px;
+}
+.word:hover{
+   font-size: 2pc;
+   color: #FFD700;
+}
+image:hover{
+  position: absolute;
+  right: 203pc;  
 }
